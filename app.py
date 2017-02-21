@@ -28,6 +28,5 @@ class Website:
 
 
 if __name__ == "__main__":
-    #web.wsgi.runwsgi = lambda func, addr=None: web.wsgi.runfcgi(func, addr)
     web.httpserver.runsimple(app.wsgifunc(), ("0.0.0.0", 8888))   
-    #app.run(port=8888)
+    
