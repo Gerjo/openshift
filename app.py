@@ -28,5 +28,5 @@ class Website:
 
 
 if __name__ == "__main__":
-    web.httpserver.runsimple(app.wsgifunc(), ("0.0.0.0", 8888))   
-    
+    web.httpserver.runsimple(app.wsgifunc(), ("0.0.0.0", 8080))   
+
